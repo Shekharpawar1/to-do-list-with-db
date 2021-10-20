@@ -1,0 +1,22 @@
+set up the atlas     
+
+create a account 
+is aws or google cloud 
+expand the cluster tier  change to m0 
+create a user under the security 
+additional details     use the latest version or 3.6 version 
+then click create cluster
+
+
+
+security>ipwhitelist>allow anywhere
+
+
+step 1 connect connect with shell or compass
+step2  then select the version of mongoshell if using shell 
+step3  paste the link into the command line or in the prograamm
+step4  now to collect the application with the db atlas
+
+
+add 
+mongoose.connect("clusterlink",{useNewUrlParser:true})
